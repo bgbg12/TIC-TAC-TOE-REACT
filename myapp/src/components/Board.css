@@ -1,0 +1,33 @@
+.game-board{
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	justify-items: center;
+	align-items: center;
+	grid-template-columns: repeat(3, auto);
+	
+}
+
+button{
+	padding: 1em;
+	border-radius: 8px;
+	background-color: #777777;
+	color: #ffffff;
+	border: none;
+	position: relative;
+
+	margin: auto;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #374151;
+}
+  
+button:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+} 
+  
+

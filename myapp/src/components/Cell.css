@@ -1,0 +1,22 @@
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    background: #ffffff;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: #d161ff;
+    height: 15vmin;
+    width: 15vmin;
+    border: none;
+    border-radius: 8px;
+    font-size: 7vmin;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
